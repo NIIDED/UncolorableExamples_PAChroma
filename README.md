@@ -30,7 +30,7 @@ PAChroma defends against **unauthorized automatic image colorization** by genera
 conda env create -f environment.yml
 conda activate UncolorableExample
 ```
-### Option B: Conda (recommended)
+### Option B: pip / venv
 ```bash
 python -m venv .venv
 source .venv/bin/activate
@@ -44,13 +44,14 @@ From the repo root:
 git clone https://github.com/piddnad/DDColor.git DDColor
 ```
 Download the weights from the original repository.
+> Note: the demo script changes directory to `DDColor/`, so the folder name must be exactly `DDColor`.
 
 ## Quick Start
 ```bash
 python PAChroma_DDColor.py --seed 100 --eps_size 16
 ```
-> Defense run on the image inside "Input".
-> Protected images and colored images will be saved under the folder "Output"
+Defense run on the image inside "Input".
+Protected images and colored images will be saved under the folder "Output"
 > note: eps_size=16 corresponds to an L∞ budget of 16/255.
 
 ## Citation
