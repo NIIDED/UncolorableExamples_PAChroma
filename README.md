@@ -1,5 +1,8 @@
 # Uncolorable Examples: PAChroma (APSIPA ASC 2025)
 
+[![arXiv](https://img.shields.io/badge/arXiv-2510.08979-b31b1b.svg)](https://arxiv.org/abs/2510.08979)
+[![Paper](https://img.shields.io/badge/PDF-APSIPA%20Proceedings-blue.svg)](http://www.apsipa.org/proceedings/2025/papers/APSIPA2025_P284.pdf)
+
 Official code release for the paper:
 
 **Uncolorable Examples: Preventing Unauthorized AI Colorization via Perception-Aware Chroma-Restrictive Perturbation (PAChroma)**  
@@ -9,9 +12,6 @@ PAChroma defends against **unauthorized automatic image colorization** by genera
 
 ![PAChroma overview](images/teaser.png)
 
-## Paper
-- APSIPA proceedings (PDF): `link_here`
-- arXiv: `link_here`
 
 ## Citation
 ```bibtex
