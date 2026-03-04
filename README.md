@@ -49,8 +49,9 @@ Download the weights from the original repository.
 ```bash
 python PAChroma_DDColor.py --seed 100 --eps_size 16
 ```
-> note: eps_size=16 corresponds to an L∞ budget of 16/255.
+> Defense run on the image inside "Input".
 > Protected images and colored images will be saved under the folder "Output"
+> note: eps_size=16 corresponds to an L∞ budget of 16/255.
 
 ## Citation
 ```bibtex
