@@ -12,7 +12,7 @@ PAChroma defends against **unauthorized automatic image colorization** by genera
 
 ![PAChroma overview](images/teaser.png)
 
-
+---
 
 ## Verified Environment
 - OS: Ubuntu 24.04.4 LTS (noble)
@@ -23,8 +23,6 @@ PAChroma defends against **unauthorized automatic image colorization** by genera
 
 > Repro tip: we also provide `environment.yml` (conda) and `requirements.txt` (pip) in this repo.
 
----
-
 ## Installation
 
 ### Option A: Conda (recommended)
@@ -32,7 +30,7 @@ PAChroma defends against **unauthorized automatic image colorization** by genera
 conda env create -f environment.yml
 conda activate UncolorableExample
 ```
-### Option A: Conda (recommended)
+### Option B: Conda (recommended)
 ```bash
 python -m venv .venv
 source .venv/bin/activate
@@ -45,12 +43,14 @@ From the repo root:
 ```bash
 git clone https://github.com/piddnad/DDColor.git DDColor
 ```
+Download the weights from the original repository.
 
 ## Quick Start
 ```bash
 python PAChroma_DDColor.py --seed 100 --eps_size 16
 ```
-### note: eps_size=16 corresponds to an L∞ budget of 16/255.
+> note: eps_size=16 corresponds to an L∞ budget of 16/255.
+> Protected images and colored images will be saved under the folder "Output"
 
 ## Citation
 ```bibtex
